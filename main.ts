@@ -1,6 +1,7 @@
 let Degrees = 0
 basic.forever(function () {
     Degrees = input.compassHeading()
+    // This code tells you which direction you are facing, like a real compass.
     if (Degrees < 45) {
         basic.showLeds(`
             # . . . #
